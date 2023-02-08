@@ -16,7 +16,7 @@ function Card({ url, title, family, firstName, lastName }) {
           <img
             src={url}
             alt={name}
-            className='h-full w-full rounded-xl object-cover shadow-xl shadow-black/40'
+            className='h-full w-full rounded-xl object-cover shadow-lg shadow-white/30'
           />
         </div>
 
