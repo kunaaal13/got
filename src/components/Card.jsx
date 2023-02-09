@@ -1,7 +1,7 @@
 function Card({ url, title, family, firstName, lastName }) {
   return (
     <div
-      className='group h-72 w-full'
+      className='group h-72 w-full cursor-pointer'
       style={{
         perspective: '1000px',
       }}
