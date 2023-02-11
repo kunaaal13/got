@@ -7,8 +7,8 @@ function App() {
   useEffect(() => {
     const fetchData = async () => {
       const res = await fetch('https://thronesapi.com/api/v2/Characters')
-      const data = await res.json()
-      setData(data)
+      const results = await res.json()
+      setData(results)
     }
 
     fetchData()
